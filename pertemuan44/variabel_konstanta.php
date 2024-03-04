@@ -1,0 +1,18 @@
+<?php
+/*membuat variabel baru pada file vaiabel_konstanta */ 
+$angka1 = 10;
+$angka2 = 5;
+$hasil = $angka1 + $angka2;
+echo "Hasil penjumlahan $angka1 dan $angka2 adalah $hasil.<br>";
+
+/*menambahkan variabel baru dengan nilai true dan false pada kode variabel yang dibuat */
+$benar = true;
+$salah = false;
+echo "Variabel benar : $benar, Variabel salah : $salah<br>";
+
+// Mendefinisikan konstanta untuk nilai tetap
+define("NAMA_SITUS", "WebsiteKu.com");
+define("TAHUN_PENDIRIAN", 2023);
+
+echo "Selamat datang di " . NAMA_SITUS . ", didirikan pada tahun " . TAHUN_PENDIRIAN . ".";
+?>
